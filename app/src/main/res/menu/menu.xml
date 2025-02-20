@@ -11,4 +11,8 @@
     <item
         android:id="@+id/drawer_menu_2"
         android:title="设置阈值" />
+
+    <item
+        android:id="@+id/drawer_menu_3"
+        android:title="怀旧滤镜" />
 </menu>

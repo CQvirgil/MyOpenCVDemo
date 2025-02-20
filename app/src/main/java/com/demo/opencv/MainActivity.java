@@ -14,6 +14,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.demo.opencv.fragment.GaryImageFragment;
+import com.demo.opencv.fragment.NostalgiaImageFragment;
 import com.demo.opencv.fragment.SmoothProcessingFragment;
 import com.google.android.material.navigation.NavigationView;
 
@@ -64,6 +65,9 @@ public class MainActivity extends AppCompatActivity {
                 }
                 if (itemId == R.id.drawer_menu_2){
                     changFragment(new SmoothProcessingFragment());
+                }
+                if (itemId == R.id.drawer_menu_3){
+                    changFragment(new NostalgiaImageFragment());
                 }
                 drawer.close();
                 return true;

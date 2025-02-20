@@ -48,3 +48,4 @@ dependencyResolutionManagement {
 rootProject.name = "OpenCVDemo"
 include ':app'
 include ':opencv_sdk'
+include ':camera'
